@@ -808,6 +808,11 @@ import com.holub.tools.ArrayIterator;
 																				// "people" table will
 																				// fail if this operation fails.
 
+			// html exporter test
+			Writer htmlOut = new FileWriter("people.html");
+			people.export(new HTMLExporter(htmlOut));
+			htmlOut.close();
+
 			Writer out = new FileWriter("people");
 			people.export(new CSVExporter(out));
 			out.close();
