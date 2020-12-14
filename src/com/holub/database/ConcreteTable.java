@@ -813,6 +813,11 @@ import com.holub.tools.ArrayIterator;
 			people.export(new HTMLExporter(htmlOut));
 			htmlOut.close();
 
+			// xml exporter test
+			Writer xmlOut = new FileWriter("people.xml");
+			people.export(new XMLExporter(xmlOut));
+			xmlOut.close();
+
 			Writer out = new FileWriter("people");
 			people.export(new CSVExporter(out));
 			out.close();
