@@ -14,7 +14,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-bin/
+/target/
+/bin/
+/test.exe
 
 # Package Files #
 *.jar
