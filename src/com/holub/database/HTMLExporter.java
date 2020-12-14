@@ -7,6 +7,7 @@ import java.util.Iterator;
 public class HTMLExporter implements Table.Exporter {
     private final Writer out;
     private int	 width;
+    private String type;
 
     public HTMLExporter( Writer out ) {
         this.out = out;
@@ -17,14 +18,16 @@ public class HTMLExporter implements Table.Exporter {
                                int height,
                                Iterator columnNames ) throws IOException {
         this.width = width;
-        out.write(String.format("\t<caption>%s</caption>\n", tableName == null ? "<anonymous>" : tableName));
+        this.type = "thead";
+        out.write(String.format("\t\t<caption>%s</caption>\n", tableName == null ? "<anonymous>" : tableName));
         storeRow( columnNames ); // comma separated list of columns ids
+        this.type = "tbody";
     }
 
     public void storeRow( Iterator data ) throws IOException {
         int i = width;
 
-        out.write("\t<tbody>\n");
+        out.write(String.format("\t\t<%s>\n", this.type));
 
         while( data.hasNext() ) {
             Object datum = data.next();
@@ -32,17 +35,15 @@ public class HTMLExporter implements Table.Exporter {
             // Null columns are represented by an empty field
             // (two commas in a row). There's nothing to write
             // if the column data is null.
-            out.write("\t\t<th>");
+            out.write("\t\t\t<th>");
             if( datum != null )
                 out.write( datum.toString() );
 
             out.write("</th>\n");
         }
-        out.write("\t</tbody>");
-        out.write("\n");
+        out.write(String.format("\t\t</%s>\n", this.type));
     }
 
-    @Override
     public void startTable() throws IOException {
         out.write("<!DOCTYPE html>\n");
         out.write(
