@@ -102,6 +102,11 @@ public class UnmodifiableTable implements Table
 	{	wrapped.export(exporter);
 	}
 
+	@Override
+	public String[] getColumns() {
+		return new String[0];
+	}
+
 	public String	toString() 		{ return wrapped.toString();	}
 	public String	name()			{ return wrapped.name(); 		}
 	public void		rename(String s){ 		 wrapped.rename(s);		}

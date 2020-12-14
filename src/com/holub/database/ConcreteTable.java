@@ -71,7 +71,7 @@ import com.holub.tools.ArrayIterator;
 	 * Create a table with the given name and columns.
 	 * 
 	 * @param tableName the name of the table.
-	 * @param an        array of Strings that specify the column names.
+	 * @param columnNames array of Strings that specify the column names.
 	 */
 	public ConcreteTable(String tableName, String[] columnNames) {
 		this.tableName = tableName;
@@ -125,6 +125,11 @@ import com.holub.tools.ArrayIterator;
 
 		exporter.endTable();
 		isDirty = false;
+	}
+
+	@Override
+	public String[] getColumns() {
+		return columnNames;
 	}
 
 	// @import-export-end
@@ -422,7 +427,12 @@ import com.holub.tools.ArrayIterator;
 		if (requestedColumns == null)
 			return select(where);
 
-		Table resultTable = new ConcreteTable(null, (String[]) requestedColumns.clone());
+		Table resultTable = null;
+
+		if (requestedColumns.length == 1 && requestedColumns[0].equals("*"))
+			resultTable = new ConcreteTable(null, (String[]) columnNames.clone());
+		else
+			resultTable = new ConcreteTable(null, (String[]) requestedColumns.clone());
 
 		Results currentRow = (Results) rows();
 		Cursor[] envelope = new Cursor[] { currentRow };
@@ -460,7 +470,23 @@ import com.holub.tools.ArrayIterator;
 		// Create places to hold the result of the join and to hold
 		// iterators for each table involved in the join.
 
-		Table resultTable = new ConcreteTable(null, requestedColumns);
+		Table resultTable = null;
+		if (requestedColumns.length == 1 && requestedColumns[0].equals("*")) {
+			int columnCount = columnNames.length;
+			int i;
+			for (Table table : otherTables)
+				columnCount += table.getColumns().length;
+			String[] starColumns = new String[columnCount];
+			for (i = 0; i<columnNames.length; i++) {
+				starColumns[i] = columnNames[i];
+			}
+			for (Table table : otherTables) {
+				for (String column : table.getColumns())
+					starColumns[i++] = column;
+			}
+			requestedColumns = starColumns;
+		}
+		resultTable = new ConcreteTable(null, requestedColumns);
 		Cursor[] envelope = new Cursor[allTables.length];
 
 		// Recursively compute the Cartesian product, adding to the
@@ -860,6 +886,19 @@ import com.holub.tools.ArrayIterator;
 			print(result);
 			System.out.println("");
 
+			// test star select
+			System.out.println("\nSELECT *" + " FROM people, address"
+					+ " WHERE people.addrId = address.addrId");
+
+			result = people.select(new Selector.Adapter() {
+									   public boolean approve(Cursor[] tables) {
+										   return tables[0].column("addrId").equals(tables[1].column("addrId"));
+									   }
+								   }, new String[] { "*" }, new Table[] { address });
+
+			print(result);
+			System.out.println("");
+
 			// Now test a three-way join
 			//
 			System.out.println("\nSELECT first,last,street,city,state,zip,text" + " FROM people, address, third"
@@ -879,6 +918,8 @@ import com.holub.tools.ArrayIterator;
 					new String[] { "last", "first", "state", "text" }, new Table[] { address, third });
 
 			System.out.println(result.toString() + "\n");
+
+
 		}
 
 		public void testUndo() {

@@ -289,4 +289,10 @@ public interface Table extends Serializable, Cloneable
 		Iterator loadRow()			throws IOException;
 		void 	 endTable()			throws IOException;
 	}
+
+	/*******************************************************************
+	 * Used for * in select function
+	 * Methods return table's colummns
+	 */
+	String[] getColumns();
 }
