@@ -818,6 +818,10 @@ import com.holub.tools.ArrayIterator;
 			people.export(new XMLExporter(xmlOut));
 			xmlOut.close();
 
+			Reader xmlIn = new FileReader("people.xml");
+			people = new ConcreteTable(new XMLImporter(xmlIn));
+			xmlIn.close();
+
 			Writer out = new FileWriter("people");
 			people.export(new CSVExporter(out));
 			out.close();
