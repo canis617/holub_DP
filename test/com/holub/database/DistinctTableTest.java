@@ -34,8 +34,8 @@ public class DistinctTableTest {
     public void testInsert() {
         people.insert(new Object[] { "Holub", "Allen", "1" });
         people.insert(new Object[] { "Holub", "Allen", "2" });
-        people.insert(new Object[] { "Flintstone", "Wilma", "2" });
-        people.insert(new String[] { "addrId", "first", "last" }, new Object[] { "3", "Fred", "Flintstone" });
+        people.insert(new Object[] { "Flintstone", "Wilma", "3" });
+        people.insert(new String[] { "addrId", "first", "last" }, new Object[] { "4", "Fred", "Flintstone" });
 
         System.out.println(people.toString());
 

@@ -28,3 +28,9 @@ Released 27 Sept., 2004
  *    caused by bugs, including lost productivity or data)
  *    in any of this code.
  */
+
+
+/*
+ * Design Patter 파일 설명
+ * 파일 설명은 편한 링크를 위해 README.md 파일에 추가적으로 정리되어 있습니다.
+ */
