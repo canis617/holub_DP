@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a6f034f-622a-453e-996b-2984e47f7108" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.xml" beforeDir="false" afterPath="$PROJECT_DIR$/people.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/holub/database/ConcreteTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/holub/database/ConcreteTableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/holub/database/HTMLExporterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/holub/database/XMLExporterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/holub/database/XMLImporterTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -41,125 +34,107 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/database/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="661" selection-start-line="661" selection-end-line="661" />
+            <state relative-caret-position="247">
+              <caret line="815" column="28" lean-forward="true" selection-start-line="815" selection-start-column="28" selection-end-line="815" selection-end-column="29" />
               <folding>
-                <element signature="e#4672#4673#0" expanded="true" />
-                <element signature="e#4701#4702#0" expanded="true" />
+                <element signature="e#48150#48516#0" expanded="true" />
+                <element signature="e#48515#48516#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/database/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="234" column="43" lean-forward="true" selection-start-line="234" selection-start-column="43" selection-end-line="234" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="477" column="43" lean-forward="true" selection-start-line="477" selection-start-column="43" selection-end-line="477" selection-end-column="43" />
+              <folding>
+                <element signature="e#19542#19543#0" expanded="true" />
+                <element signature="e#19708#19709#0" expanded="true" />
+                <element signature="e#19761#19762#0" expanded="true" />
+                <element signature="e#19811#19812#0" expanded="true" />
+                <element signature="e#19867#19868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/holub/database/ConcreteTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="290">
+              <caret line="272" column="26" selection-start-line="272" selection-start-column="26" selection-end-line="272" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2833#2834#0" expanded="true" />
-                <element signature="e#2891#2892#0" expanded="true" />
-                <element signature="e#2933#2934#0" expanded="true" />
-                <element signature="e#2975#2976#0" expanded="true" />
-                <element signature="e#4032#4201#0" expanded="true" />
-                <element signature="e#4200#4201#0" expanded="true" />
-                <element signature="e#4362#4534#0" expanded="true" />
-                <element signature="e#4533#4534#0" expanded="true" />
-                <element signature="e#7391#7611#0" expanded="true" />
-                <element signature="e#7610#7611#0" expanded="true" />
-                <element signature="e#7874#8062#0" expanded="true" />
-                <element signature="e#8061#8062#0" expanded="true" />
-                <element signature="e#8660#9054#0" expanded="true" />
-                <element signature="e#9053#9054#0" expanded="true" />
-                <element signature="e#8749#8750#0" expanded="true" />
-                <element signature="e#8809#8810#0" expanded="true" />
-                <element signature="e#8851#8852#0" expanded="true" />
-                <element signature="e#8899#8900#0" expanded="true" />
-                <element signature="e#10800#10971#0" expanded="true" />
-                <element signature="e#10970#10971#0" expanded="true" />
+                <element signature="e#7895#8115#0" expanded="true" />
+                <element signature="e#8114#8115#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/text/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+            <state relative-caret-position="225">
+              <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/text/Token.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="152">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/ClassRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holub/database/HTMLExporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/holub/database/HTMLExporterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/people.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/holub/database/XMLImporter.java">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/JDBCTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1969#1977#0" expanded="true" />
-              </folding>
+              <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/Console.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="166" column="56" lean-forward="true" selection-start-line="166" selection-start-column="56" selection-end-line="166" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Statement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/JDBCStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -184,14 +159,25 @@
       <find>columnNames</find>
       <find>ColumnCount</find>
       <find>return columnNames.length</find>
-      <find>select(</find>
       <find>select</find>
       <find>SELECT</find>
       <find>*</find>
       <find>Table select</find>
       <find>Test</find>
       <find>people</find>
+      <find>execute</find>
       <find>ConcreteTableTest</find>
+      <find>ORDER</find>
+      <find>isDistinct</find>
+      <find>select(</find>
+      <find>where</find>
+      <find>Dis</find>
+      <find>Distinct</find>
+      <find>print(</find>
+      <find>DISTINCT</find>
+      <find>STAR</find>
+      <find>Table select(</find>
+      <find>columns</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,13 +191,17 @@
         <option value="$PROJECT_DIR$/src/com/holub/tools/ArrayIterator.java" />
         <option value="$PROJECT_DIR$/src/com/holub/database/XMLExporter.java" />
         <option value="$PROJECT_DIR$/src/com/holub/database/XMLImporter.java" />
-        <option value="$PROJECT_DIR$/src/com/holub/database/Table.java" />
-        <option value="$PROJECT_DIR$/src/com/holub/database/UnmodifiableTable.java" />
         <option value="$PROJECT_DIR$/test/com/holub/database/XMLExporterTest.java" />
         <option value="$PROJECT_DIR$/test/com/holub/database/XMLImporterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java" />
         <option value="$PROJECT_DIR$/test/com/holub/database/HTMLExporterTest.java" />
         <option value="$PROJECT_DIR$/test/com/holub/database/ConcreteTableTest.java" />
+        <option value="$PROJECT_DIR$/src/com/holub/database/UnmodifiableTable.java" />
+        <option value="$PROJECT_DIR$/src/com/holub/database/Table.java" />
+        <option value="$PROJECT_DIR$/test/com/holub/database/DistinctTableTest.java" />
+        <option value="$PROJECT_DIR$/src/com/holub/database/DistinctTable.java" />
+        <option value="$PROJECT_DIR$/src/com/holub/database/jdbc/JDBCStatement.java" />
+        <option value="$PROJECT_DIR$/src/com/holub/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java" />
       </list>
     </option>
   </component>
@@ -221,9 +211,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="874" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="655" />
+    <option name="width" value="1237" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -238,6 +228,26 @@
             <path>
               <item name="foo" type="b2602c69:ProjectViewProjectNode" />
               <item name="dp2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dp2020" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dp2020" type="462c0819:PsiDirectoryNode" />
+              <item name="Dbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dp2020" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dp2020" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="foo" type="b2602c69:ProjectViewProjectNode" />
@@ -296,6 +306,7 @@
     <property name="last_opened_file_path" value="D:/workSpace/intelliJ-workspace/EmptyClass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2735632" />
@@ -321,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConcreteTableTest">
+  <component name="RunManager" selected="Application.Console">
     <configuration name="ConcreteTable$Test" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.holub.database.ConcreteTable$Test" />
       <module name="foo" />
@@ -365,14 +376,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DistinctTableTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.holub.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.holub.database" />
+      <option name="MAIN_CLASS_NAME" value="com.holub.database.DistinctTableTest" />
+      <option name="METHOD_NAME" value="selectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Console" />
       <item itemvalue="Application.ConcreteTable$Test" />
       <item itemvalue="JUnit.All in foo" />
       <item itemvalue="JUnit.ConcreteTableTest" />
+      <item itemvalue="JUnit.DistinctTableTest.selectTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DistinctTableTest.selectTest" />
         <item itemvalue="JUnit.ConcreteTableTest" />
         <item itemvalue="JUnit.All in foo" />
       </list>
@@ -388,69 +417,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607939140516</updated>
-      <workItem from="1607939143158" duration="24326000" />
+      <workItem from="1607939143158" duration="41092000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_foo - 2020.12.15 at 02h 50m 21s.xml">
-      <configuration name="All in foo" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 17h 57m 08s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcreteTableTest - 2020.12.15 at 03h 00m 46s.xml">
-      <configuration name="ConcreteTableTest" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 17h 57m 36s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcreteTableTest - 2020.12.15 at 03h 03m 54s.xml">
-      <configuration name="ConcreteTableTest" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 17h 58m 31s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcreteTableTest - 2020.12.15 at 03h 04m 23s.xml">
-      <configuration name="ConcreteTableTest" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 17h 59m 21s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcreteTableTest - 2020.12.15 at 03h 04m 26s.xml">
-      <configuration name="ConcreteTableTest" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 17h 59m 44s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcreteTableTest - 2020.12.15 at 03h 05m 56s.xml">
-      <configuration name="ConcreteTableTest" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 18h 00m 56s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcreteTableTest - 2020.12.15 at 03h 06m 58s.xml">
-      <configuration name="ConcreteTableTest" configurationId="JUnit" />
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 18h 10m 04s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 18h 45m 44s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 18h 49m 32s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DistinctTableTest_selectTest - 2020.12.15 at 18h 49m 57s.xml">
+      <configuration name="DistinctTableTest.selectTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24326000" />
+    <option name="totallyTimeSpent" value="41092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.13752665" />
-      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.13752665" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.67936116" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" weight="0.32995737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49838188" visible="true" weight="0.13752665" />
+      <window_info id="Structure" order="6" sideWeight="0.50161815" side_tool="true" weight="0.13752665" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.67936116" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/people">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -524,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holub/text/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/holub/database/CSVExporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -545,13 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="71" column="30" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holub/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -579,36 +596,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holub/database/UnmodifiableTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
-          <folding>
-            <element signature="e#3542#3543#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holub/database/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="238" column="13" selection-start-line="238" selection-start-column="13" selection-end-line="238" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="405" column="42" selection-start-line="405" selection-start-column="42" selection-end-line="405" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/holub/database/XMLExporter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -657,18 +649,7 @@
     <entry file="file://$PROJECT_DIR$/people.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="661" selection-start-line="661" selection-end-line="661" />
-          <folding>
-            <element signature="e#4672#4673#0" expanded="true" />
-            <element signature="e#4701#4702#0" expanded="true" />
-          </folding>
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -693,23 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/holub/database/HTMLExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/holub/database/HTMLExporterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -728,32 +692,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/holub/database/ConcreteTableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/adapters/StatementAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="292">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/ConcreteTable.test.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/HTMLExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2891#2892#0" expanded="true" />
-            <element signature="e#2933#2934#0" expanded="true" />
-            <element signature="e#2975#2976#0" expanded="true" />
-            <element signature="e#4032#4201#0" expanded="true" />
-            <element signature="e#4200#4201#0" expanded="true" />
-            <element signature="e#4362#4534#0" expanded="true" />
-            <element signature="e#4533#4534#0" expanded="true" />
-            <element signature="e#7391#7611#0" expanded="true" />
-            <element signature="e#7610#7611#0" expanded="true" />
-            <element signature="e#7874#8062#0" expanded="true" />
-            <element signature="e#8061#8062#0" expanded="true" />
-            <element signature="e#8660#9054#0" expanded="true" />
-            <element signature="e#9053#9054#0" expanded="true" />
-            <element signature="e#8749#8750#0" expanded="true" />
-            <element signature="e#8809#8810#0" expanded="true" />
-            <element signature="e#8851#8852#0" expanded="true" />
-            <element signature="e#8899#8900#0" expanded="true" />
-            <element signature="e#10800#10971#0" expanded="true" />
-            <element signature="e#10970#10971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/UnmodifiableTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="120" selection-end-column="45" />
+          <folding>
+            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="e#3576#3577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/holub/database/HTMLExporterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/holub/database/DistinctTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1638#1800#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/DistinctTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#3279#3280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="407" column="23" lean-forward="true" selection-start-line="407" selection-start-column="23" selection-end-line="407" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="166" column="56" lean-forward="true" selection-start-line="166" selection-start-column="56" selection-end-line="166" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/JDBCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/text/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/text/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/holub/database/ConcreteTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="272" column="26" selection-start-line="272" selection-start-column="26" selection-end-line="272" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7895#8115#0" expanded="true" />
+            <element signature="e#8114#8115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="234" column="43" lean-forward="true" selection-start-line="234" selection-start-column="43" selection-end-line="234" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/jdbc/JDBCStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="815" column="28" lean-forward="true" selection-start-line="815" selection-start-column="28" selection-end-line="815" selection-end-column="29" />
+          <folding>
+            <element signature="e#48150#48516#0" expanded="true" />
+            <element signature="e#48515#48516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/holub/database/ConcreteTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="477" column="43" lean-forward="true" selection-start-line="477" selection-start-column="43" selection-end-line="477" selection-end-column="43" />
+          <folding>
+            <element signature="e#19542#19543#0" expanded="true" />
+            <element signature="e#19708#19709#0" expanded="true" />
+            <element signature="e#19761#19762#0" expanded="true" />
+            <element signature="e#19811#19812#0" expanded="true" />
+            <element signature="e#19867#19868#0" expanded="true" />
           </folding>
         </state>
       </provider>

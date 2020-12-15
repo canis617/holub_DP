@@ -430,7 +430,7 @@ import com.holub.tools.ArrayIterator;
 
 		Table resultTable = null;
 
-		if (requestedColumns.length == 1 && requestedColumns[0].equals("*"))
+		if (requestedColumns == null || (requestedColumns.length == 1 && requestedColumns[0].equals("*")))
 			resultTable = new ConcreteTable(null, (String[]) columnNames.clone());
 		else
 			resultTable = new ConcreteTable(null, (String[]) requestedColumns.clone());
@@ -472,7 +472,7 @@ import com.holub.tools.ArrayIterator;
 		// iterators for each table involved in the join.
 
 		Table resultTable = null;
-		if (requestedColumns.length == 1 && requestedColumns[0].equals("*")) {
+		if (requestedColumns == null || (requestedColumns.length == 1 && requestedColumns[0].equals("*"))) {
 			int columnCount = columnNames.length;
 			int i;
 			for (Table table : otherTables)
