@@ -179,7 +179,7 @@ statement       ::=
                 |   UPDATE  IDENTIFIER SET IDENTIFIER
                                             EQUAL expr WHERE expr
                 |   DELETE  FROM IDENTIFIER WHERE expr
-                |   SELECT  [INTO identifier] idList
+                |   SELECT  [DISTINCT] [INTO identifier] idList
                                         FROM idList [WHERE expr]
 
 idList          ::= IDENTIFIER idList' | STAR
@@ -383,6 +383,7 @@ public final class Database
 		CREATE		= tokens.create( "'CREATE"	),
 		DATABASE	= tokens.create( "'DATABASE"),
 		DELETE		= tokens.create( "'DELETE"	),
+		DISTINCT	= tokens.create( "'DISTINCT"),
 		DROP		= tokens.create( "'DROP"	),
 		DUMP		= tokens.create( "'DUMP"	),
 		FROM		= tokens.create( "'FROM"	),
@@ -796,7 +797,11 @@ public final class Database
 			affectedRows = doDelete( tableName, expr() );
 		}
 		else if( in.matchAdvance(SELECT) != null )
-		{	List columns = idList();
+		{	boolean isDistinct = false;
+			if (in.matchAdvance(DISTINCT) != null) {
+				isDistinct = true;
+			}
+			List columns = idList();
 
 			String into = null;
 			if( in.matchAdvance(INTO) != null )
@@ -807,8 +812,10 @@ public final class Database
 
 			Expression where = (in.matchAdvance(WHERE) == null)
 								? null : expr();
+
 			Table result = doSelect(columns, into,
-								requestedTableNames, where );
+								requestedTableNames, where, isDistinct);
+
 			return result;
 		}
 		else
@@ -1391,7 +1398,8 @@ public final class Database
 	//
 	private Table doSelect( List columns, String into,
 										List requestedTableNames,
-										final Expression where )
+										final Expression where,
+										boolean isDistinct)
 										throws ParseFailure
 	{
 
@@ -1431,13 +1439,13 @@ public final class Database
 					catch( ParseFailure e )
 					{	throw new ThrowableContainer(e);
 					}
-				}
-			};
+			}
+		};
 
 		try
 		{	Table result = primary.select(selector, columns, participantsInJoin);
-
-			// If this is a "SELECT INTO <table>" request, remove the 
+			if (isDistinct) result = new DistinctTable(((UnmodifiableTable)result).extract());
+			// If this is a "SELECT INTO <table>" request, remove the
 			// returned table from the UnmodifiableTable wrapper, give
 			// it a name, and put it into the tables Map.
 

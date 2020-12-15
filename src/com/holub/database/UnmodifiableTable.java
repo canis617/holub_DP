@@ -104,7 +104,7 @@ public class UnmodifiableTable implements Table
 
 	@Override
 	public String[] getColumns() {
-		return new String[0];
+		return wrapped.getColumns();
 	}
 
 	public String	toString() 		{ return wrapped.toString();	}

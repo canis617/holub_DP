@@ -30,6 +30,11 @@ public class ConcreteTableTest {
     @Test
     public void updateTest() {
         try {
+            testInsert();
+        } catch (Throwable t) {
+            report(t, "Store/Load");
+        }
+        try {
             testUpdate();
         } catch (Throwable t) {
             report(t, "Update");
@@ -50,6 +55,11 @@ public class ConcreteTableTest {
     }
     @Test
     public void selectTest() {
+        try {
+            testInsert();
+        } catch (Throwable t) {
+            report(t, "Store/Load");
+        }
         try {
             testSelect();
         } catch (Throwable t) {
@@ -72,6 +82,11 @@ public class ConcreteTableTest {
     @Test
     public void joinTest() {
         try {
+            testInsert();
+        } catch (Throwable t) {
+            report(t, "Store/Load");
+        }
+        try {
             testJoin();
         } catch (Throwable t) {
             report(t, "Join");
@@ -79,6 +94,11 @@ public class ConcreteTableTest {
     }
     @Test
     public void undoTest() {
+        try {
+            testInsert();
+        } catch (Throwable t) {
+            report(t, "Store/Load");
+        }
         try {
             testUndo();
         } catch (Throwable t) {
@@ -216,6 +236,7 @@ public class ConcreteTableTest {
         people.export(new XMLExporter(xmlOut));
         xmlOut.close();
 
+        //xml importer test
         Reader xmlIn = new FileReader("people.xml");
         people = new ConcreteTable(new XMLImporter(xmlIn));
         xmlIn.close();
